@@ -1,0 +1,1 @@
+This folder will be used to share files with TensorFlow Docker container. Please see the [project page README](../README.md) for more details.
