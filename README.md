@@ -1,6 +1,6 @@
 # Running TensorFlow Docker image under Windows
 
-This Vagrant configuration allows you to run TensorFlow Docker image on your Windows machine and share the `assignments` folder on the Windows machine with the TensorFlow Docker container, so that all yor work will stay on your Windows machine.
+This Vagrant configuration allows you to run TensorFlow Docker image on your Windows machine and share the `assignments` folder on the Windows machine with the TensorFlow Docker container, so that all your work will stay on your Windows machine.
 
 ## Prerequisites
 
