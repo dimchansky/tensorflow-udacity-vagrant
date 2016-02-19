@@ -6,7 +6,7 @@ This Vagrant configuration allows you to run TensorFlow Docker image on your Win
 
 As Docker runs on Linux containers we would need to run a Linux Virtual Machine(VM) to be able to run Docker images. So first install [Vagrant](https://www.vagrantup.com/).
 
-Before you run VM, make sure you have enough RAM and CPUs on your Windows machine. Current Vagrant configuration will use 2 CPUs and 8GB of RAM to run VM (Deep learning course authors [recommend using 8G](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/README.md)). You can fix these numbers in [Vagrantfile](Vagrantfile#26).
+Before you run VM, make sure you have enough RAM and CPUs on your Windows machine. Current Vagrant configuration will use 2 CPUs and 8GB of RAM to run VM (Deep learning course authors [recommend using 8G](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/README.md)). You can fix these numbers in [Vagrantfile](Vagrantfile#L26).
 
 Make sure the following ports are not occupied by any other process and are free to use by VM:
 
