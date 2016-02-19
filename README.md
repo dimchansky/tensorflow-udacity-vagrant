@@ -17,16 +17,20 @@ Make sure the following ports are not occupied by any other process and are free
 ## Preparing image for first use
 
 1. Run VM with the Docker image:
+
    ```sh
    > vagrant up tensorflow-udacity
    ```
+
 2. When VM is ready, open [http://localhost:8888/](http://localhost:8888/) in your browser.
 3. At this point TensorFlow is almost ready, but you need to copy the assignments from Docker image to shared working folder (`assignments` folder on your Windows machine). So press the *New* button on the TensorFlow page in your browser and then press *Terminal*. Type the following commands in the *Terminal*:
+
    ```sh
    # cp -a /notebooks/. /assignments
    # chmod -R 666 /assignments
    # exit
    ```
+
    After this you can close the *Terminal* page and goto [http://localhost:8888/](http://localhost:8888/). Now you should see all the assignments and are ready to get to work.
    
 ## Shutdown/run the VM with the Docker image
