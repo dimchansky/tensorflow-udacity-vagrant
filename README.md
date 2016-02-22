@@ -16,7 +16,7 @@ Make sure the following ports are not occupied by any other process and are free
 
 ## Preparing image for first use
 
-1. Run VM with the Docker image:
+1. Run VM with the Docker image (all Vagrant commands need to be run from the folder you've cloned repository to):
 
    ```sh
    > vagrant up tensorflow-udacity
