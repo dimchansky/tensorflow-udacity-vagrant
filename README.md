@@ -58,6 +58,14 @@ The second time it will start faster, because it's already configured. When VM i
 
 ## Tips & tricks
 
+### Logs
+
+```sh
+> vagrant docker-logs
+```
+
+command can be used to see the logs of a running TensorFlow Notebook. It can be useful to troubleshoot TensorFlow problems.
+
 ### SSH
 
 You can SSH into the VM by running the command (you should have ssh.exe in your Windows path):
