@@ -1,5 +1,7 @@
 # Running TensorFlow Docker image under Windows
 
+## Summary
+
 This Vagrant configuration allows you to run TensorFlow Docker image (from the Udacity [Deep Learning course](https://www.udacity.com/course/viewer#!/c-ud730) authors) on your Windows machine and share the `assignments` folder on the Windows machine with the TensorFlow Docker container, so that all your work will stay on your Windows machine.
 
 ## Prerequisites
@@ -16,14 +18,20 @@ Make sure the following ports are not occupied by any other process and are free
 
 ## Preparing image for first use
 
-1. Run VM with the Docker image (all Vagrant commands need to be run from the folder you've cloned repository to):
+1. Clone this repository:
+   
+   ```sh
+   > git clone https://github.com/dimchansky/tensorflow-udacity-vagrant
+   ```
+   
+2. Run VM with the Docker image (all Vagrant commands need to be run from the folder you've cloned repository to):
 
    ```sh
    > vagrant up tensorflow-udacity
    ```
 
-2. When VM is ready, open [http://localhost:8888/](http://localhost:8888/) in your browser.
-3. At this point TensorFlow is almost ready, but you need to copy the assignments from Docker image to shared working folder (`assignments` folder on your Windows machine). So press the *New* button on the TensorFlow page in your browser and then press *Terminal*. Type the following commands in the *Terminal*:
+3. When VM is ready, open [http://localhost:8888/](http://localhost:8888/) in your browser.
+4. At this point TensorFlow is almost ready, but you need to copy the assignments from Docker image to shared working folder (`assignments` folder on your Windows machine). So press the *New* button on the TensorFlow page in your browser and then press *Terminal*. Type the following commands in the *Terminal*:
 
    ```sh
    # cp -a /notebooks/. /assignments
